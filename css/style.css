@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+}
+header{
+    justify-content: space-between;
+    background-color: #da1506;
+    height: 15vh;
+}
+header h2{
+    width: 30%;
+    align-self: center;
+    text-align: center;
+} 
+header nav{
+    width: 40%;
+}
+header ul{
+    align-self: center;
+    justify-content: space-around;
+    width: 100%;
+}
+header img {
+    width: 30%;
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+.main-section{
+    width: 90%;
+    height: 100%;
+}
+.div-pizza-up{
+    height: 30%;
+}
+.div-pizza-down{
+    height: 30%;
+}
+.pizza-article{
+    height: 100%;
+    width: 50%;
+    padding: 0% 2%;
+    margin: 5% 2%;
+    background-color: #da1506;
+    border-radius: 25px;
+}
+.pizza-article img{
+    width: 500px;
+    height: 400px;
+}
+aside{
+    width: 10%;
+    background-color: #efc08a;
+    justify-content: space-between;
+}
+aside a, h2{
+    text-align: center;
+}
+aside img{
+    width: 100%;
+}
+ul a,ul{
+    list-style: none;
+    color: #000000;
+}
+footer{
+    justify-content: space-between;
+    background-color: #da1506;
+    height: 15vh;
+}
+footer p{
+    width: 30%;
+    align-self: center;
+    text-align: center;
+}
+footer img {
+    width: 30%;
+    height: 100%;
+} 
+#link{
+    color: #9cb2c4;
+}
